@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for s0 project
+# Scrapy settings for s01 project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,17 +9,17 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 's0'
+BOT_NAME = 's01'
 
-SPIDER_MODULES = ['s0.spiders']
-NEWSPIDER_MODULE = 's0.spiders'
+SPIDER_MODULES = ['s01.spiders']
+NEWSPIDER_MODULE = 's01.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 's0 (+http://www.yourdomain.com)'
+#USER_AGENT = 's01 (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = False
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    's0.middlewares.S0SpiderMiddleware': 543,
+#    's01.middlewares.S01SpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    's0.middlewares.S0DownloaderMiddleware': 543,
+#    's01.middlewares.S01DownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    's0.pipelines.S0Pipeline': 300,
+#    's01.pipelines.S01Pipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
